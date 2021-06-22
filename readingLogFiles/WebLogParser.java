@@ -19,7 +19,7 @@ public class WebLogParser {
         //110.76.104.12 - - [30/Sep/2015:07:47:11 -0400] "GET //favicon.ico HTTP/1.1" 200 3426
         StringBuilder sb = new StringBuilder(line);
         String ip = munchTo(sb, " ");
-        munchTo(sb, " "); //ignore -
+        munchTo(sb, " ");  //ignore -
         munchTo(sb, " ["); //ignore -, and eat the leading [
         String dateStr = munchTo(sb, "] \""); //]-space is intentional: eat both
         Date date = parseDate(dateStr);
