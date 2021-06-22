@@ -1,4 +1,4 @@
-package readingLogFiles1;
+package readingLogFiles;
 
 import java.text.*;
 import java.util.*;
