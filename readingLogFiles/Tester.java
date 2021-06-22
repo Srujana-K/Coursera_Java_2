@@ -20,7 +20,7 @@ public class Tester
     public static void main(String args[]){
         Tester t = new Tester();
         //t.testLogEntry();
-        t.testLogAnalyzer();
+       // t.testLogAnalyzer();
     }
 
 }
