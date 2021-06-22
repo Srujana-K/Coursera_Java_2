@@ -1,7 +1,9 @@
-package readingLogFiles;
+package websiteVisitsAssignment;
 
-import java.text.*;
-import java.util.*;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 public class WebLogParser {
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MMM/yyyy:kk:mm:ss Z", Locale.US);
