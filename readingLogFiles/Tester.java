@@ -1,6 +1,4 @@
-package readingLogFiles;
-
-import edu.duke.FileResource;
+package readingLogFiles1;
 
 import java.util.*;
 

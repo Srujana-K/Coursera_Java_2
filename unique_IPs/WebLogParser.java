@@ -1,4 +1,4 @@
-package readingLogFiles1;
+package unique_IPs;
 
 import java.text.*;
 import java.util.*;
